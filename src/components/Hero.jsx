@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import Computers from "./canvas/Computers";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto mb-5">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
@@ -45,18 +45,31 @@ const Hero = () => {
               delay: 1.2,
             }}
           >
-            A Passionate Individual Driving Positive Change in Technology.{" "}
-            <br />
-            With Strong Skills In Java and Full Stack Development <br />
-            {/* Graduating
-            In 2027 With A Bachelor&apos;s In Computer Science And Engineering
-            From SRM University, Chennai. Collaboration, Innovation, And
-            Lifelong Learning Are At The Heart Of My Pursuits. */}
+            I develop Full Stack Web Application With 3D visuals and Great User
+            Interfaces
           </motion.p>
         </div>
       </div>
       {/* Three Animation */}
-      {/* <Computers /> */}
+      <ComputersCanvas />
+
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
+            />
+          </div>
+        </a>
+      </div>
     </section>
   );
 };
