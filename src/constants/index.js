@@ -11,9 +11,12 @@ import {
   redux,
   tailwind,
   nodejs,
+  promptai,
+  blogapp,
   mongodb,
   git,
   figma,
+  todoform,
   docker,
   meta,
   starbucks,
@@ -190,12 +193,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Prompt",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An Open Source Full Stack Web-based platform built in Next-js 14 that allows users to store & search AI Prompts from various Users, providing a convenient and efficient solution for Prompt Engineering.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -207,50 +210,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: promptai,
+    source_code_link: "https://github.com/jaskrrish/Prompt.ai",
   },
   {
-    name: "Job IT",
+    name: "Blog App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A React JS blog app lets users create, view, and interact with dynamic blog posts. It uses reusable components for a smooth, interactive experience and leverages React's features for efficiency and a large support ecosystem.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "appwrite",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blogapp,
+    source_code_link: "https://github.com/jaskrrish/BlogApp",
   },
   {
-    name: "Trip Guide",
+    name: "Todo",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This React Todo app simplifies task management. Users can add, edit, and mark completed tasks using React components. Redux Toolkit centralizes data (todos) and state updates, ensuring consistency and easy maintenance.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react-redux-toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: todoform,
+    source_code_link: "https://github.com/jaskrrish/TodoForm",
   },
 ];
 
