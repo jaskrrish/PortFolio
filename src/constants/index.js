@@ -193,7 +193,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Prompt",
+    name: "Prompt.AI",
     description:
       "An Open Source Full Stack Web-based platform built in Next-js 14 that allows users to store & search AI Prompts from various Users, providing a convenient and efficient solution for Prompt Engineering.",
     tags: [
