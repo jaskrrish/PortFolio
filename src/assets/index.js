@@ -22,12 +22,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import JasResume from "./JasResume.pdf";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import LinkedIn from "./linkedin-black.png";
+import Twitter from "./twitter.png";
+import GithubLogo from "./github-2.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -37,6 +39,10 @@ export {
   backend,
   creator,
   mobile,
+  GithubLogo,
+  JasResume,
+  LinkedIn,
+  Twitter,
   web,
   github,
   todoform,

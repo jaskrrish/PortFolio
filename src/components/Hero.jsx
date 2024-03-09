@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
@@ -15,18 +16,7 @@ const Hero = () => {
         <div>
           <motion.h1
             className={`${styles.heroHeadText} text-white`}
-            initial={{
-              opacity: 0,
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: {
-                duration: 1,
-                delay: 0.6,
-              },
-            }}
+            variants={textVariant()}
           >
             Hi, I &apos;m <span className="text-[#915EFF]">Jas Krrish</span>
           </motion.h1>
