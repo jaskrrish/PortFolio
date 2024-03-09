@@ -28,7 +28,7 @@ const About = () => {
             University, Chennai. Collaboration, Innovation, And Lifelong
             Learning Are At The Heart Of My Pursuits.
           </motion.p>
-          <div className="m-8">
+          <div className="my-8">
             <a
               href={JasResume}
               target="_blank"
@@ -36,7 +36,7 @@ const About = () => {
             >
               View My Resume
             </a>
-            <div className="my-10 mx-3 flex">
+            <div className="my-10 flex">
               <a
                 href="https://github.com/jaskrrish"
                 className="bg-[#6b39d6] p-2 rounded-full mx-4 border-[3px] border-[#6b39d6] hover:bg-transparent"
