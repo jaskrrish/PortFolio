@@ -1,9 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
-import Particle from "./components/Particle";
 import {
   About,
   Contact,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -15,14 +13,23 @@ function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat">
-          {/* <Particle /> */}
-          <Navbar />
+        <Navbar />
+        <div className="relative z-0">
           <Hero />
+          <StarsCanvas />
         </div>
-        <About />
-        <Tech />
-        <Works />
+        <div className="relative z-0">
+          <About />
+          <StarsCanvas />
+        </div>
+        <div className="relative z-0">
+          <Tech />
+          <StarsCanvas />
+        </div>
+        <div className="relative z-0">
+          <Works />
+          <StarsCanvas />
+        </div>
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

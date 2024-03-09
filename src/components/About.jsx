@@ -32,20 +32,20 @@ const About = () => {
             <a
               href={JasResume}
               target="_blank"
-              className="bg-[#6b39d6] py-2.5 px-8 rounded-3xl outline-none w-fit text-white font-bold shadow-md shadow-primary border-2 border-[#6b39d6] hover:bg-transparent"
+              className="bg-[#6b39d6] py-2.5 px-8 rounded-3xl outline-none w-fit text-white font-bold shadow-md shadow-primary border-[3px] border-[#6b39d6] hover:bg-transparent"
             >
               View My Resume
             </a>
             <div className="my-10 mx-3 flex">
               <a
                 href="https://github.com/jaskrrish"
-                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-2 border-[#6b39d6] hover:bg-transparent"
+                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-[3px] border-[#6b39d6] hover:bg-transparent"
               >
                 <img src={github} alt="Github Icon" width={35} height={35} />
               </a>
               <a
                 href="https://www.linkedin.com/in/jas-krrish-singh-896382239"
-                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-2 border-[#6b39d6] hover:bg-transparent"
+                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-[3px] border-[#6b39d6] hover:bg-transparent"
               >
                 <img
                   src={LinkedIn}
@@ -57,7 +57,7 @@ const About = () => {
               </a>
               <a
                 href="https://twitter.com/jas_krrish"
-                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-2 border-[#6b39d6] hover:bg-transparent"
+                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-[3px] border-[#6b39d6] hover:bg-transparent"
               >
                 <img
                   src={Twitter}

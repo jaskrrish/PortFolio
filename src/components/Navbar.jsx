@@ -31,7 +31,7 @@ const Navbar = () => {
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled
-          ? "bg-white backdrop-filter backdrop-blur-md bg-opacity-5"
+          ? "bg-gray-400 backdrop-filter backdrop-blur-md bg-opacity-10"
           : "bg-transparent"
       }`}
     >
@@ -65,7 +65,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex flex-1 justify-end items-center ">
           <img
             src={toggle ? close : menu}
             alt="menu"
@@ -76,7 +76,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            }  bg-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-10 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 p-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
