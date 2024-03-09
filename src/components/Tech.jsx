@@ -23,7 +23,9 @@ const SkillsCard = ({ icon, name }) => (
         <img
           src={icon}
           alt="web-development"
-          className="w-16 h-16 object-contain"
+          className={`w-16 h-16 object-contain ${
+            name === "Three JS" ? "invert" : ""
+          }`}
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">{name}</h3>
