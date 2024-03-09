@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { JasResume, LinkedIn, Twitter, GithubLogo, github } from "../assets";
+import { JasResume, LinkedIn, Twitter, github } from "../assets";
 import { fadeIn, textVariant, slideIn } from "../utils/motion";
 
 const About = () => {

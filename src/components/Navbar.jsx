@@ -8,7 +8,6 @@ import { menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [hover, setHover] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -50,10 +49,6 @@ const Navbar = () => {
             alt="logo"
             className=" w-[134px] h-[30px] object-contain"
           />
-          {/* <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Adrian &nbsp;
-            <span className="sm:block hidden"> | JavaScript Mastery</span>
-          </p> */}
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -62,13 +57,10 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer `}
+              } hover:text-white text-[18px] font-medium cursor-pointer } `}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>
-                <span className={`text-transparent `}>&lt;</span> {nav.title}{" "}
-                <span className={`text-transparent`}>&gt;</span>
-              </a>
+              <a href={`#${nav.id}`}>{nav.title} </a>
             </li>
           ))}
         </ul>
