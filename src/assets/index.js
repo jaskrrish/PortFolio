@@ -32,11 +32,15 @@ import Twitter from "./twitter.png";
 import GithubLogo from "./github-2.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import JasLogo from "./jas-krrish-white-logo.png";
+import JasKrrish from "./JasKrrishSingh.jpeg";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
   backend,
+  JasLogo,
+  JasKrrish,
   creator,
   mobile,
   GithubLogo,

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { menu, close } from "../assets";
+import { menu, close, JasLogo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -45,7 +45,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src="/src/assets/jas-krrish-white-logo.png"
+            src={JasLogo}
             alt="logo"
             className=" w-[134px] h-[30px] object-contain"
           />

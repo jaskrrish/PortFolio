@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { JasResume, LinkedIn, Twitter, github } from "../assets";
+import { JasResume, LinkedIn, Twitter, github, JasKrrish } from "../assets";
 import { fadeIn, textVariant, slideIn } from "../utils/motion";
 
 const About = () => {
@@ -73,7 +73,7 @@ const About = () => {
         <Tilt className="w-[300px]">
           <img
             className="mb-6 ml-4 rounded-xl drop-shadow-lg"
-            src="./src/assets/JasKrrishSingh.jpeg"
+            src={JasKrrish}
             alt="Jas-Krrish-Singh"
           />
         </Tilt>
