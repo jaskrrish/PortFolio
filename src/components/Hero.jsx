@@ -35,8 +35,8 @@ const Hero = () => {
               delay: 1.2,
             }}
           >
-            I develop Full Stack Web Application With 3D visuals and Great User
-            Interfaces
+            I develop Full Stack Web Application With Interactive 3D visuals and
+            User Interfaces
           </motion.p>
         </div>
       </div>
