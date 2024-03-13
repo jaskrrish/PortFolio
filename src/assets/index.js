@@ -35,6 +35,7 @@ import jobit from "./jobit.png";
 import JasLogo from "./jas-krrish-white-logo.png";
 import JasKrrish from "./JasKrrishSingh.jpeg";
 import tripguide from "./tripguide.png";
+import threeD from "./three-1.jpg";
 
 export {
   logo,
@@ -47,6 +48,7 @@ export {
   JasResume,
   LinkedIn,
   Twitter,
+  threeD,
   web,
   github,
   todoform,
