@@ -18,15 +18,12 @@ import {
   git,
   figma,
   todoform,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  ngl,
 } from "../assets";
 
 export const navLinks = [
@@ -166,6 +163,31 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Not Gonna Lie",
+    description:
+      "I've developed a full-stack website inspired by Instagram's NGL feature, allowing users to receive anonymous feedback. This platform helps you gain true insights and feedback about yourself from friends and followers",
+    tags: [
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Auth js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express js ",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ngl,
+    source_code_link: "https://github.com/jaskrrish/Not-Gonna-Lie",
+  },
   {
     name: "3D T-Shirt Customizer",
     description:

@@ -36,6 +36,7 @@ import JasLogo from "./jas-krrish-white-logo.png";
 import JasKrrish from "./JasKrrishSingh.jpeg";
 import tripguide from "./tripguide.png";
 import threeD from "./three-1.jpg";
+import ngl from "./ngl-pic .png";
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  ngl,
 };
