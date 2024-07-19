@@ -10,26 +10,26 @@ const SkillsCard = ({ icon, name }) => (
   <Tilt className="xs:w-[200px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      className="w-full border-4 border-white px-2 rounded-[20px] shadow-card"
     >
-      <div
+      <motion.div
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[180px] flex justify-evenly items-center flex-col"
+        className="bg-transparent rounded-[20px] py-5 px-2 min-h-[105px] flex gap-2 items-center justify-center"
       >
         <img
           src={icon}
           alt="web-development"
-          className={`w-16 h-16 object-contain ${
+          className={`w-12 h-12 object-contain ${
             name === "Three JS" ? "invert" : ""
           }`}
         />
 
-        <h3 className="text-white text-[20px] font-bold text-center">{name}</h3>
-      </div>
+        <h3 className="text-white text-[16px] font-bold text-center">{name}</h3>
+      </motion.div>
     </motion.div>
   </Tilt>
 );

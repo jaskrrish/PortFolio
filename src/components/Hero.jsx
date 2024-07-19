@@ -5,43 +5,21 @@ import { textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto mb-5">
+    <section className="relative w-full h-[70vh] mx-auto mb-5">
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center justify-center gap-5`}
       >
-        <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
-        </div>
         <div>
           <motion.h1
-            className={`${styles.heroHeadText} text-white`}
+            className={`font-black lg:text-[140px] sm:text-[105px] xs:text-[90px] text-[40px] lg:leading-[120px] sm:leading-[90px] leading-[90px] mt-2 text-[#b5acac] text-center`}
             variants={textVariant()}
           >
-            Hi, I &apos;m <span className="text-[#915EFF]">Jas Krrish</span>
+            Jas Krrish <br /> Singh
           </motion.h1>
-          <motion.p
-            className={`${styles.heroSubText} mt-2 text-white-100`}
-            initial={{
-              opacity: 0,
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-            }}
-            transition={{
-              duration: 1,
-              delay: 1.2,
-            }}
-          >
-            I develop Full Stack Web Application With Interactive 3D visuals and
-            User Interfaces
-          </motion.p>
         </div>
       </div>
       {/* Three Animation */}
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

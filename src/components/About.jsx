@@ -32,39 +32,45 @@ const About = () => {
             <a
               href={JasResume}
               target="_blank"
-              className="bg-[#6b39d6] py-2.5 px-8 rounded-3xl outline-none w-fit text-white font-bold shadow-md shadow-primary border-[3px] border-[#6b39d6] hover:bg-transparent"
+              className="bg-[#e3e0e0] py-2.5 px-8 rounded-3xl outline-none w-fit text-black font-bold shadow-md shadow-primary border-[3px] border-[#e3e0e0] hover:bg-transparent"
             >
               View My Resume
             </a>
             <div className="my-10 flex">
               <a
                 href="https://github.com/jaskrrish"
-                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-[3px] border-[#6b39d6] hover:bg-transparent"
+                className="bg-[#e3e0e0] p-2 rounded-full mx-4 border-[3px] border-[#e3e0e0] hover:bg-transparent"
               >
-                <img src={github} alt="Github Icon" width={35} height={35} />
+                <img
+                  src={github}
+                  alt="Github Icon"
+                  width={35}
+                  height={35}
+                  className="invert hover:invert-0"
+                />
               </a>
               <a
                 href="https://www.linkedin.com/in/jas-krrish-singh-896382239"
-                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-[3px] border-[#6b39d6] hover:bg-transparent"
+                className="bg-[#e3e0e0] p-2 rounded-full mx-4 border-[3px] border-[#e3e0e0] hover:bg-transparent"
               >
                 <img
                   src={LinkedIn}
                   alt="LinkedIn Icon"
                   width={35}
                   height={35}
-                  className="invert"
+                  className="hover:invert"
                 />
               </a>
               <a
                 href="https://twitter.com/jas_krrish"
-                className="bg-[#6b39d6] p-2 rounded-full mx-4 border-[3px] border-[#6b39d6] hover:bg-transparent"
+                className="bg-[#e3e0e0] p-2 rounded-full mx-4 border-[3px] border-[#e3e0e0] hover:bg-transparent"
               >
                 <img
                   src={Twitter}
                   alt="Twitter Icon"
                   width={35}
                   height={35}
-                  className="invert"
+                  className="hover:invert"
                 />
               </a>
             </div>
