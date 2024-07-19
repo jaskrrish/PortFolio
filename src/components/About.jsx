@@ -32,7 +32,7 @@ const About = () => {
             <a
               href={JasResume}
               target="_blank"
-              className="bg-[#e3e0e0] py-2.5 px-8 rounded-3xl outline-none w-fit text-black font-bold shadow-md shadow-primary border-[3px] border-[#e3e0e0] hover:bg-transparent"
+              className="bg-[#e3e0e0] py-2.5 px-8 rounded-3xl outline-none w-fit text-black font-bold shadow-md shadow-primary border-[3px] border-[#e3e0e0] hover:bg-transparent hover:text-white"
             >
               View My Resume
             </a>

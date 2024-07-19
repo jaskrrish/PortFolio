@@ -18,7 +18,7 @@ const SkillsCard = ({ icon, name }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-transparent rounded-[20px] py-5 px-2 min-h-[105px] flex gap-2 items-center justify-center"
+        className="bg-transparent rounded-[20px] py-2 px-2 min-h-[105px] flex gap-2 items-center justify-center"
       >
         <img
           src={icon}
