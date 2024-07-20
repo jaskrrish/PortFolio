@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { textVariant } from "../utils/motion";
 
-const Hero = ({ textEnter, textLeave }) => {
+const Hero = () => {
   return (
     <section className="relative w-full h-[70vh] mx-auto mb-5">
       <div
@@ -11,8 +11,6 @@ const Hero = ({ textEnter, textLeave }) => {
       >
         <div>
           <motion.h1
-            onMouseEnter={textEnter}
-            onMouseLeave={textLeave}
             className={`font-black lg:text-[140px] sm:text-[105px] xs:text-[90px] text-[40px] lg:leading-[120px] sm:leading-[90px] leading-[90px] mt-2 text-[#b5acac] text-center`}
             variants={textVariant()}
           >
