@@ -36,20 +36,22 @@ function App() {
           <StarsCanvas />
         </div>
         {/* cursor */}
-        <AnimatedCursor
-          innerSize={10}
-          outerSize={35}
-          innerScale={1}
-          outerScale={2}
-          outerAlpha={0}
-          hasBlendMode={true}
-          innerStyle={{
-            backgroundColor: "white",
-          }}
-          outerStyle={{
-            border: "3px solid white",
-          }}
-        />
+        <div className="hidden md:block">
+          <AnimatedCursor
+            innerSize={10}
+            outerSize={35}
+            innerScale={1}
+            outerScale={2}
+            outerAlpha={0}
+            hasBlendMode={true}
+            innerStyle={{
+              backgroundColor: "white",
+            }}
+            outerStyle={{
+              border: "3px solid white",
+            }}
+          />
+        </div>
       </div>
     </BrowserRouter>
   );

@@ -5,13 +5,13 @@ import { textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[70vh] mx-auto mb-5">
+    <section className="w-full md:h-[70vh] h-[60vh] mx-auto mb-5 flex flex-col gap-y-4 justify-center items-center">
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center justify-center gap-5`}
+        className={`max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center justify-center gap-5 my-8`}
       >
         <div>
           <motion.h1
-            className={`font-black lg:text-[140px] sm:text-[105px] xs:text-[90px] text-[40px] lg:leading-[120px] sm:leading-[90px] leading-[90px] mt-2 text-[#b5acac] text-center`}
+            className={`font-black lg:text-[140px] sm:text-[125px] xs:text-[100px] text-[40px] lg:leading-[120px] sm:leading-[8px] md:leading-[90px] mt-2 text-[#b5acac] text-center`}
             variants={textVariant()}
           >
             Jas Krrish <br /> Singh
@@ -21,9 +21,9 @@ const Hero = () => {
       {/* Three Animation */}
       {/* <ComputersCanvas /> */}
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="w-full flex justify-center items-center my-4">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="md:w-[35px] md:h-[64px] w-[34px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
