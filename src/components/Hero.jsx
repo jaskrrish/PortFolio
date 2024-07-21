@@ -5,13 +5,13 @@ import { textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
-    <section className="w-full md:h-[70vh] h-[60vh] mx-auto mb-5 flex flex-col gap-y-4 justify-center items-center">
+    <section className="w-full md:h-screen h-[60vh] mx-auto mb-5 flex flex-col gap-y-4 justify-center items-center">
       <div
         className={`max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center justify-center gap-5 my-8`}
       >
         <div>
           <motion.h1
-            className={`font-black lg:text-[140px] sm:text-[125px] xs:text-[100px] text-[40px] lg:leading-[120px] sm:leading-[8px] md:leading-[90px] mt-2 text-[#b5acac] text-center`}
+            className={`font-black lg:text-[140px] sm:text-[125px] xs:text-[100px] md:text-[120px] lg:leading-[120px] sm:leading-[8px] md:leading-[90px] mt-2 text-[#b5acac] text-center`}
             variants={textVariant()}
           >
             Jas Krrish <br /> Singh

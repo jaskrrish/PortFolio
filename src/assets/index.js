@@ -24,6 +24,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import JasResume from "./jaskrrishresume-main.pdf";
 import meta from "./company/meta.png";
+import framerMotion from "./tech/framer-motion.png";
+import zod from "./tech/zod.png";
+import tanstack from "./tech/tanstack.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -37,6 +40,7 @@ import JasKrrish from "./JasKrrishSingh.jpeg";
 import tripguide from "./tripguide.png";
 import threeD from "./three-1.jpg";
 import ngl from "./ngl-pic .png";
+import cryck from "./cryck.jpeg";
 
 export {
   logo,
@@ -78,4 +82,8 @@ export {
   jobit,
   tripguide,
   ngl,
+  cryck,
+  framerMotion,
+  zod,
+  tanstack,
 };

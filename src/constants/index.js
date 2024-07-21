@@ -24,6 +24,10 @@ import {
   shopify,
   threejs,
   ngl,
+  cryck,
+  framerMotion,
+  zod,
+  tanstack,
 } from "../assets";
 
 export const navLinks = [
@@ -96,6 +100,18 @@ const technologies = [
   {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "Framer Motion",
+    icon: framerMotion,
+  },
+  {
+    name: "Zod",
+    icon: zod,
+  },
+  {
+    name: "Tanstack",
+    icon: tanstack,
   },
   {
     name: "git",
@@ -210,6 +226,27 @@ const projects = [
     source_code_link: "https://github.com/jaskrrish/3D-Tshirt-Customizer",
   },
   {
+    name: "Cryck",
+    description:
+      "Cryck is innovative Fantasy Cricket Blockchain Game, a cutting-edge project that integrates the excitement of fantasy cricket with the transformative power of decentralized finance (DeFi) and blockchain technology. ",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cryck,
+    source_code_link: "https://github.com/JeyasuryaUR/Cryck",
+  },
+  {
     name: "Prompt.AI",
     description:
       "An Open Source Full Stack Web-based platform built in Next-js 14 that allows users to store & search AI Prompts from various Users, providing a convenient and efficient solution for Prompt Engineering.",
@@ -250,27 +287,6 @@ const projects = [
     ],
     image: blogapp,
     source_code_link: "https://github.com/jaskrrish/BlogApp",
-  },
-  {
-    name: "Todo",
-    description:
-      "This React Todo app simplifies task management. Users can add, edit, and mark completed tasks using React components. Redux Toolkit centralizes data (todos) and state updates, ensuring consistency and easy maintenance.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-redux-toolkit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: todoform,
-    source_code_link: "https://github.com/jaskrrish/TodoForm",
   },
 ];
 
