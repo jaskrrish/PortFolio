@@ -11,7 +11,7 @@ const Hero = () => {
       >
         <div>
           <motion.h1
-            className={`font-black text-[125px] md:text-[120px] lg:leading-[120px] sm:leading-[8px] md:leading-[90px] mt-2 text-[#b5acac] text-center`}
+            className={`font-black text-[60px] md:text-[120px] leading-[60px] md:leading-[90px] mt-2 text-[#b5acac] text-center`}
             variants={textVariant()}
           >
             Jas Krrish <br /> Singh
