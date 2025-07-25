@@ -22,7 +22,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import JasResume from "./jaskrrishresume-main.pdf";
+import JasResume from "./jaskrrish_cv-07:25.pdf";
 import meta from "./company/meta.png";
 import framerMotion from "./tech/framer-motion.png";
 import zod from "./tech/zod.png";
